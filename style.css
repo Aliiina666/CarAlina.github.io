@@ -1,0 +1,74 @@
+ body{
+    background-image: URL("https://abrakadabra.fun/uploads/posts/2021-12/1640313272_1-abrakadabra-fun-p-doroga-vid-s-boku-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+.car {
+
+     width: 200px;
+     height: 100px;
+     position: absolute;
+     top: 70%;
+     bottom: 0;
+     left: -200px;
+     border: 10px solid #9e1eff;
+     border-radius: 10%;
+     background-color: #9e1eff;
+     animation: drive 30s linear infinite;
+ }
+
+
+ 
+ @keyframes drive {
+     0% {
+         left: -200px;
+     }
+
+     100% {
+         left: calc(70% + 50px);
+     }
+ }
+
+ .car_contour {
+     height: 70px;
+     width: 210px;
+     position: absolute;
+     bottom: 0;
+     margin-bottom: 50px;
+     border: 5px solid #000000;
+     border-radius: 10%;
+     background-color: rgb(31, 136, 206);
+     right: 0;
+     margin-right: -10px;
+ }
+
+ .car_palochki {
+    position: absolute;
+    top: -25px;
+    left: 70%;
+    margin-left: -40px;
+    height: 65%;
+    width: 0px;
+    border: 5px solid #2b0a44;
+    border-top: none;
+  }
+
+ .car .kolesik {
+     width: 50px;
+     height: 50px;
+     background-color: black;
+     border-radius: 50%;
+     position: absolute;
+     bottom: 0;
+     margin-bottom: -25px;
+ }
+
+ .car .kolesik.left {
+     left: 25px;
+ }
+
+ .car .kolesik.right {
+     right: 25px;
+ }
